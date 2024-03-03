@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h2>Sign Up!</h2>
+    <h5>Welcome to Proxima! We are happy to have you in our orbit!</h5><br>
+    <div class="signup form">
+    <form>
+        <div class="form-group col-md-6">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div><br>
+        <div class="form-group col-md-6">
+            <label for="username">Username</label>
+            <input type="username" class="form-control" id="username" placeholder="Username">
+          </div><br>
+          <div class="form-group col-md-6">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div><br>
+          <div class="form-group col-md-6">
+            <label for="pronouns">Pronouns</label>
+            <input type="pronouns" class="form-control" id="pronouns" placeholder="Please Enter Your Prefered Pronouns">
+          </div><br>
+          <div class="form-group col-md-6">
+            <label for="visibility">Please Select Your Visibility</label>
+            <p>This will determine whether you are visible to other users and want to align with them. Invisible means not visible to anyone, friends only will keep you visible to your friends, and visible will allow you to be seen by everyone on the app.</p>
+            <select multiple class="form-control" id="visibility">
+              <option>Invisible</option>
+              <option>Friends Only</option>
+              <option>Visible</option>
+            </select><br>
+        <button type="submit" class="btn btn-primary" onclick="window.location.href='http://127.0.0.1:5500/Website%20Pages/app.html';">Submit</button>
+      </form>
+    </div>
+      <p> Don't have an account? <a href="http://127.0.0.1:5500/Website%20Pages/signup.html">Sign up here!</a></p> 
+</body>
+</html>
